@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "Welkom",
+    "currentPage": "index",
     "name": "Het Grote Kabouterbos",
     "theme": {
       "name": "mobirise3",
@@ -29,7 +29,21 @@
     "cookiesAlert": "Wij geven u gratis een cookie! "
   },
   "pages": {
-    "Welkom": {
+    "Over ons restaurant": {
+      "settings": {
+        "title": "Over ons restaurant",
+        "meta_descr": ""
+      },
+      "components": []
+    },
+    "Direct reserveren ": {
+      "settings": {
+        "title": "Direct reserveren",
+        "meta_descr": "Reserveringspagina reserveringsformulier"
+      },
+      "components": []
+    },
+    "index": {
       "settings": {
         "main": true,
         "title": "Welkom",
@@ -195,20 +209,6 @@
           }
         }
       ]
-    },
-    "Over ons restaurant": {
-      "settings": {
-        "title": "Over ons restaurant",
-        "meta_descr": ""
-      },
-      "components": []
-    },
-    "Direct reserveren ": {
-      "settings": {
-        "title": "Direct reserveren",
-        "meta_descr": "Reserveringspagina reserveringsformulier"
-      },
-      "components": []
     }
   }
 }

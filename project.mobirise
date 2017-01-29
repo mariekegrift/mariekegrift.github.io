@@ -1,0 +1,214 @@
+{
+  "settings": {
+    "currentPage": "Welkom",
+    "name": "Het Grote Kabouterbos",
+    "theme": {
+      "name": "mobirise3",
+      "title": "Mobirise 3",
+      "styling": {
+        "primaryColor": "#41a85f",
+        "secondaryColor": "#fac51c",
+        "successColor": "#d14841",
+        "infoColor": "#b8312f",
+        "warningColor": "#f7da64",
+        "dangerColor": "#000000",
+        "titleFont": "Lora",
+        "subtitleFont": "Ubuntu",
+        "textFont": "Ubuntu",
+        "isRoundedButtons": true,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": true
+      }
+    },
+    "versionFirst": "3.11.1",
+    "uniqCompNum": 13,
+    "versionPublish": "3.11.1",
+    "favicon": "@PROJECT_PATH@/assets/images/m2logo-128x128.png",
+    "noImageResize": "",
+    "google-analytics": "",
+    "cookiesAlert": "Wij geven u gratis een cookie! "
+  },
+  "pages": {
+    "Welkom": {
+      "settings": {
+        "main": true,
+        "title": "Welkom",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff",
+              "googleLink": "https://fonts.googleapis.com/css?family=Ubuntu:400,300,700",
+              "font-family": "'Ubuntu', sans-serif"
+            },
+            ".link": {
+              "font-size": "1.1rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "1.191rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#b4322b"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#ce3c35!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#d14841"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#41a85f!important"
+            },
+            ".btn": {
+              "font-family": "'Ubuntu', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Ubuntu:400,300,700",
+              "font-size": "15px"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-c",
+          "_params": {
+            "bgColor": "#d14841",
+            "fontSize": "1.1",
+            "fontName": {
+              "name": "Ubuntu",
+              "url": "https://fonts.googleapis.com/css?family=Ubuntu:400,300,700",
+              "css": "'Ubuntu', sans-serif"
+            },
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": false,
+            "showBrand": false,
+            "collapsed": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">Welkom!</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Over ons restaurant\">Over ons restaurant</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">De menukaart</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">Bekijk foto's&nbsp;</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary\" href=\"Direct reserveren \">&nbsp;Direct reserveren!</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_anchor": "header1-8",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "showArrow": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/het-grote-kabouterbos-2000x1500.jpg",
+            "bgColor": "#f97352",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.5",
+            "overlayColor": "#000000",
+            "contentAlign": "center",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "title": "<span style=\"font-weight: normal;\">Pannenkoekhuis</span>&nbsp;<br>Het Grote Kabouterbos<br>",
+          "text": "<b>Bij ons pannenkoekenhuis, kan je binnenkijken in de wereld van de kabouters!&nbsp;<br>Er zijn echte paddenstoelhuisjes, schommels, trampolines, skelters, zandbak en er is ook nog waterpret.&nbsp;<br>Daarnaast kun je spelen in de ballenbak waar je tevens naar binnen kunt gluren bij het kabouterdorp.&nbsp;<br>&nbsp;In het bos hebben we een leuke bosroute waar je nog meer leert over het leven van de kabouters.<br>In het bos zijn ook heel veel kabouters te vinden.&nbsp;<br>&nbsp;Als je uitgespeeld bent, kun je een overheerlijke zelfgemaakte pannenkoek bestellen.<br>Daarna kan je nog smullen van een huisgemaakt ijsje van Hans en Griet.<br>&nbsp;<br>Tijdens het eten gebeuren er allemaal verrassende dingen en er zitten overal kabouters verstopt.<br>&nbsp;<br>Zien wij je snel?</b><br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Direct reserveren!&nbsp;</a> ",
+          "_styles": {
+            ".mbr-section-title I": {
+              "font-size": "46px",
+              "font-family": "'Lato', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700"
+            },
+            ".mbr-section-lead": {
+              "color": "#ffffff",
+              "font-size": "16px",
+              "text-align": "center"
+            },
+            ".mbr-section-title": {
+              "font-family": "'Indie Flower', cursive",
+              "googleLink": "https://fonts.googleapis.com/css?family=Indie+Flower",
+              "text-align": "center",
+              "color": "#ffffff",
+              "font-size": "84px"
+            },
+            ".mbr-section-title SPAN": {
+              "font-family": "'Ubuntu', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Ubuntu:400,300,700",
+              "font-size": "22px",
+              "color": "#ffffff"
+            },
+            ".btn": {
+              "font-family": "'Ubuntu', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Ubuntu:400,300,700",
+              "font-size": "16px"
+            }
+          }
+        }
+      ]
+    },
+    "Over ons restaurant": {
+      "settings": {
+        "title": "Over ons restaurant",
+        "meta_descr": ""
+      },
+      "components": []
+    },
+    "Direct reserveren ": {
+      "settings": {
+        "title": "Direct reserveren",
+        "meta_descr": "Reserveringspagina reserveringsformulier"
+      },
+      "components": []
+    }
+  }
+}
